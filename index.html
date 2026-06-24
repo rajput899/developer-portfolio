@@ -9,8 +9,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet"
+          href="https://unpkg.com/aos@2.3.4/dist/aos.css">
 
 </head>
+
 
 <body>
 
@@ -59,7 +62,7 @@
     </div>
 
 </section>
-<section id="about" class="about">
+<section id="about" class="about" data-aos="fade-up">
 
     <h2 class="section-title">About Me</h2>
 
@@ -76,7 +79,7 @@
     </div>
 
 </section>
-<section id="skills" class="skills">
+<section id="skills" class="skills" data-aos="fade-up">
 
     <h2 class="section-title">Skills</h2>
 
@@ -105,7 +108,7 @@
     </div>
 
 </section>
-<section id="projects" class="projects">
+<section id="projects" class="projects" data-aos="zoom-in">
 
     <h2 class="section-title">Projects</h2>
 
@@ -142,7 +145,7 @@
     </div>
 
 </section>
-<section id="education" class="education">
+<section id="education" class="education" data-aos="fade-right">
 
     <h2 class="section-title">Education</h2>
 
@@ -184,7 +187,7 @@
     </div>
 
 </section>
-<section id="contact" class="contact">
+<section id="contact" class="contact" data-aos="fade-up">
 
     <h2 class="section-title">Contact Me</h2>
 
@@ -226,7 +229,14 @@
 <footer>
     <p>© 2025 Rituraj Singh. All Rights Reserved.</p>
 </footer>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
 
+<script>
+    AOS.init({
+        duration: 1000,
+        once: true
+    });
+</script>
     <script src="script.js"></script>
 
 </body>
