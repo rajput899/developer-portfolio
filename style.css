@@ -296,14 +296,22 @@ nav a:hover{
 }
 
 .social-links a {
-    text-decoration: none;
+    width: 55px;
+    height: 55px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.05);
     color: #38bdf8;
-    margin: 0 15px;
-    font-weight: 600;
-    transition: 0.3s;
+    font-size: 24px;
+    transition: 0.4s;
 }
 
 .social-links a:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 0 20px #38bdf8;
     color: white;
 }
 
